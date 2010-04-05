@@ -1,0 +1,12 @@
+Very basic, unfinished and unpolished IRC identi.ca gateway.
+
+Basicaly it can only imitate semi-functional IRC server and allows you
+to send dents.
+
+You have to set nick same as your identica username, then type "password <password>"
+on #control channel, and then you can post by typing "post <dent>" on the same channel.
+
+You can have more people connected to the gateway, it works independently for each.
+
+Only dependency (right now) is libcurl, but in order to really support identi.ca API,
+some XML library will be neccesary. 
