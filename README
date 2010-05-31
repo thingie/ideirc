@@ -10,3 +10,7 @@ You can have more people connected to the gateway, it works independently for ea
 
 Only dependency (right now) is libcurl, but in order to really support identi.ca API,
 some XML library will be neccesary. 
+
+In fact, it'd be more reasonable to rather extend BitlBee, which now has twitter
+support. 
+
